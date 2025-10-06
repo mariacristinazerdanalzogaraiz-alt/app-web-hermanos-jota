@@ -1,10 +1,10 @@
-# 🪑 App Web Hermanos Jota
+#  App Web Hermanos Jota
 
 Aplicación web desarrollada para el Sprint 3 y 4 del curso **Full Stack Developer en ITBA**, con el objetivo de representar digitalmente el catálogo de muebles artesanales de **Hermanos Jota**, integrando frontend y backend en una experiencia funcional, estética y emocionalmente coherente.
 
 ---
 
-## 👥 Integrantes
+##  Integrantes
 
 - María Cristina Zerdan Alzogaraiz
 - Melina Sarli Ochat 
@@ -14,7 +14,7 @@ Aplicación web desarrollada para el Sprint 3 y 4 del curso **Full Stack Develop
 
 ---
 
-## 🧩 Arquitectura y decisiones tomadas
+##  Arquitectura y decisiones tomadas
 
 La aplicación se estructura en dos carpetas principales:
 
@@ -25,7 +25,7 @@ La UI se descompone en componentes reutilizables para facilitar la escalabilidad
 
 ---
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 SPRINT 3 Y 4/
@@ -49,30 +49,30 @@ SPRINT 3 Y 4/
 ```
 ---
 
-## ✨ Funcionalidades implementadas
+##  Funcionalidades implementadas
 
-- 🛍️ **Catálogo de productos**  
+-  **Catálogo de productos**  
   - Fetch a `/api/productos` al cargar  
   - Estados de “Cargando…” y “Error al cargar los productos”  
   - Renderizado con `.map()` y `<ProductCard />` por cada producto
 
-- 🔍 **Detalle de producto**  
+-  **Detalle de producto**  
   - Renderizado condicional desde `<App />`  
   - Al hacer clic en una tarjeta, se muestra `<ProductDetail />` con la info completa
 
-- 🛒 **Carrito de compras**  
+-  **Carrito de compras**  
   - Estado global en `<App />`  
   - Botón “Añadir al carrito” en `<ProductDetail />`  
   - Contador en `<Navbar />` actualizado vía props
 
-- 📬 **Formulario de contacto**  
+-  **Formulario de contacto**  
   - Componente controlado con `useState`  
   - `console.log` de los datos al enviar  
   - Mensaje de éxito en la UI
 
 ---
 
-## 🎨 Estética y branding
+##  Estética y branding
 
 - Paleta cálida y natural, coherente con Hermanos Jota
 - Tipografías: Inter + Playfair Display
@@ -82,7 +82,7 @@ SPRINT 3 Y 4/
 
 ---
 
-## 🧠 Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - **Frontend**: React, HTML, CSS, JavaScript
 - **Backend**: Node.js, Express
@@ -91,7 +91,7 @@ SPRINT 3 Y 4/
 
 ---
 
-## 🚀 Cómo instalar y correr el proyecto
+##  Cómo instalar y correr el proyecto
 
 
 ### 🔹 1. Clonar el repositorio
