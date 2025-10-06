@@ -8,6 +8,7 @@ function ProductCard({ nombre, precio, descripcion, imagen, verDetalle }) {
       <h2>{nombre}</h2>
       <p className="precio">${precio}</p>
       <p>{descripcion}</p>
+      <button className="agregar-carrito">Agregar al Carrito</button>
     </div>
   );
 }

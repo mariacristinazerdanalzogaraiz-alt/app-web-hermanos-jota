@@ -37,6 +37,18 @@ function App() {
       </header>
 
       <main>
+        <h1>Catálogo de productos</h1>
+        <p>Explora nuestra selección de muebles y elige el que más te guste.</p>
+        <div className="productos-grid">
+          {productos.map(producto => (
+            <ProductCard
+              key={producto.id}
+              {...producto}
+              verDetalle={() => verDetalle(producto)}
+            />
+          ))}
+        </div>
+        
         {productoSeleccionado ? (
           <ProductDetail
             producto={productoSeleccionado}

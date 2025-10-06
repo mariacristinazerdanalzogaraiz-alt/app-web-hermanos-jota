@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ProductCard from './ProductCard';
 
-function ProductList() {
+function ProductList({ verDetalle }) {
   const [productos, setProductos] = useState([]);
 
   useEffect(() => {
@@ -14,7 +14,11 @@ function ProductList() {
   return (
     <div className="product-list">
       {productos.map(producto => (
-        <ProductCard key={producto.id} {...producto} />
+        <ProductCard 
+          key={producto.id} 
+          {...producto} 
+          verDetalle={() => verDetalle(producto)} 
+        />
       ))}
     </div>
   );
