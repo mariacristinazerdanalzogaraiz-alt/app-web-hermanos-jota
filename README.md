@@ -27,6 +27,7 @@ La UI se descompone en componentes reutilizables para facilitar la escalabilidad
 
 ## 📁 Estructura del proyecto
 
+```
 SPRINT 3 Y 4/
 ├── backend/
 │   ├── routes/
@@ -45,8 +46,7 @@ SPRINT 3 Y 4/
 │   ├── package.json
 │   └── .env
 └── README.md
-
-
+```
 ---
 
 ## ✨ Funcionalidades implementadas
@@ -93,12 +93,14 @@ SPRINT 3 Y 4/
 
 ## 🚀 Cómo instalar y correr el proyecto
 
+
 ### 🔹 1. Clonar el repositorio
 
-```bash
+
 git clone https://github.com/mariacristinazerdanalzogaraiz-alt/app-web-hermanos-jota.git
 
 ### 🔹 2. Instalar dependencias en /backend y en /client
+
 
 cd backend
 npm install
@@ -108,16 +110,17 @@ npm install
 
 ### 🔹 3. Iniciar servidores
 
-Backend
+#### Backend
 
 cd ../backend
 node server.js
 
-O con nodemon
+#### O con nodemon
 
 npx nodemon server.js
 
-Fontend 
+#### Fontend 
 
 cd ../client
 npm start
+```bash
